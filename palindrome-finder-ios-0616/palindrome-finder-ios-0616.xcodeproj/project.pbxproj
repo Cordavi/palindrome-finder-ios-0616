@@ -13,7 +13,7 @@
 		2E9995DF1D09A28200A7A960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9995DD1D09A28200A7A960 /* Main.storyboard */; };
 		2E9995E11D09A28200A7A960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9995E01D09A28200A7A960 /* Assets.xcassets */; };
 		2E9995E41D09A28200A7A960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9995E21D09A28200A7A960 /* LaunchScreen.storyboard */; };
-		2E9995ED1D09B1F300A7A960 /* FISPalindromeFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9995EC1D09B1F300A7A960 /* FISPalindromeFinder.m */; };
+		2E9995ED1D09B1F300A7A960 /* NSString+FISPalindromeFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9995EC1D09B1F300A7A960 /* NSString+FISPalindromeFinder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		2E9995E01D09A28200A7A960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E9995E31D09A28200A7A960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E9995E51D09A28200A7A960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E9995EB1D09B1F200A7A960 /* FISPalindromeFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPalindromeFinder.h; sourceTree = "<group>"; };
-		2E9995EC1D09B1F300A7A960 /* FISPalindromeFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPalindromeFinder.m; sourceTree = "<group>"; };
+		2E9995EB1D09B1F200A7A960 /* NSString+FISPalindromeFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FISPalindromeFinder.h"; sourceTree = "<group>"; };
+		2E9995EC1D09B1F300A7A960 /* NSString+FISPalindromeFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FISPalindromeFinder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +63,8 @@
 			children = (
 				2E9995D71D09A28200A7A960 /* AppDelegate.h */,
 				2E9995D81D09A28200A7A960 /* AppDelegate.m */,
-				2E9995EB1D09B1F200A7A960 /* FISPalindromeFinder.h */,
-				2E9995EC1D09B1F300A7A960 /* FISPalindromeFinder.m */,
+				2E9995EB1D09B1F200A7A960 /* NSString+FISPalindromeFinder.h */,
+				2E9995EC1D09B1F300A7A960 /* NSString+FISPalindromeFinder.m */,
 				2E9995DA1D09A28200A7A960 /* ViewController.h */,
 				2E9995DB1D09A28200A7A960 /* ViewController.m */,
 				2E9995DD1D09A28200A7A960 /* Main.storyboard */,
@@ -155,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E9995DC1D09A28200A7A960 /* ViewController.m in Sources */,
-				2E9995ED1D09B1F300A7A960 /* FISPalindromeFinder.m in Sources */,
+				2E9995ED1D09B1F300A7A960 /* NSString+FISPalindromeFinder.m in Sources */,
 				2E9995D91D09A28200A7A960 /* AppDelegate.m in Sources */,
 				2E9995D61D09A28200A7A960 /* main.m in Sources */,
 			);

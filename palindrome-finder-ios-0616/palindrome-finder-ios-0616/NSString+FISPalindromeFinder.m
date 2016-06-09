@@ -6,9 +6,9 @@
 //  Copyright © 2016 Michael Amundsen. All rights reserved.
 //
 
-#import "FISPalindromeFinder.h"
+#import "NSString+FISPalindromeFinder.h"
 
-@implementation FISPalindromeFinder
+@implementation NSString (FISPalindromeFinder)
 
 - (BOOL)detectPalindrome:(NSString *)stringToCheck {
     for (NSUInteger i = 0; i < [stringToCheck length]; i++) {
@@ -30,9 +30,9 @@
     return cleanedString;
 }
 
-- (BOOL)checkIfPalindrome {
-    self.stringToCheck = [self onlyUppercaseLetters:self.stringToCheck];
-    if ([self detectPalindrome:self.stringToCheck]) {
+- (BOOL)checkIfPalindrome:(NSString *)stringToCheck {
+    stringToCheck = [self onlyUppercaseLetters:stringToCheck];
+    if ([self detectPalindrome:stringToCheck]) {
         return YES;
     }
     return NO;

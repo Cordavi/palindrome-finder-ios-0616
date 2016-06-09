@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FISPalindromeFinder.h"
+#import "NSString+FISPalindromeFinder.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

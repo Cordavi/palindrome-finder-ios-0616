@@ -8,10 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FISPalindromeFinder : NSString
+@interface NSString (FISPalindromeFinder)
 
-@property (strong, nonatomic) NSString *stringToCheck;
-
-- (BOOL)checkIfPalindrome;
+- (BOOL)checkIfPalindrome:(NSString *)stringToCheck;
 
 @end

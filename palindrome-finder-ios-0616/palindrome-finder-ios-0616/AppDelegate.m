@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "FISPalindromeFinder.h"
+#import "NSString+FISPalindromeFinder.h"
 
 @interface AppDelegate ()
 
@@ -18,20 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    FISPalindromeFinder *stringToCheck = [[FISPalindromeFinder alloc] init];
-    stringToCheck.stringToCheck = @"Straw? No, too stupid a fad; I put soot on warts.";
-    if ([stringToCheck checkIfPalindrome]) {
+    NSString *stringToCheckIfPalindrome = @"Straw? No, too stupid a fad; I put soot on warts.";
+    if ([stringToCheckIfPalindrome checkIfPalindrome:stringToCheckIfPalindrome]) {
         NSLog(@"It is a Palindrome!");
     }
-    
-    
-    
-//    if ([self isAPalindrome:@"Are we not drawn onward, we few, drawn onward to new era?"]) {
-//        NSLog(@"YES");
-//    }
-  
-    
     return YES;
 }
 
